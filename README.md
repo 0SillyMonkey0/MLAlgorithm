@@ -13,3 +13,6 @@
 * AdaBoosting
 * GBDT
 * Random Forest
+
+## Dimensionality Reduction
+* PCA
