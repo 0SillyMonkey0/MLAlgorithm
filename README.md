@@ -16,3 +16,4 @@
 
 ## Dimensionality Reduction
 * PCA
+* LLE
