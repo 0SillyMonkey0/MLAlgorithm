@@ -14,6 +14,10 @@
 * GBDT
 * Random Forest
 
+## Clustering
+* Hierachical Clustering
+* K-means Clustering
+
 ## Dimensionality Reduction
 * PCA
 * LLE
