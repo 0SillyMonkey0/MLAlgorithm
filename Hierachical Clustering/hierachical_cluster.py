@@ -109,3 +109,8 @@ def drawnode(draw, clust, x, y, scaling, labels):
         drawnode(draw, clust.right, x + l1, bottom - h2 / 2, scaling, labels)
     else:
         draw.text((x + 5, y - 7), labels[clust.id], (0, 0, 0))
+        
+        
+blognames, words, data = readfile('./data/blogdata.txt')
+clust = hcluster(data)
+drawdendrogram(clust, blognames, jpeg='blogclust.jpg')
