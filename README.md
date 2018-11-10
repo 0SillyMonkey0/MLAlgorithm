@@ -21,3 +21,4 @@
 ## Dimensionality Reduction
 * PCA
 * LLE
+* Multidimensional scale
